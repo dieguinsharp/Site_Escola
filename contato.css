@@ -1,0 +1,28 @@
+@charset "UTF-8";
+div#interface_principal caption {
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+    text-align: left;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #646464;
+    border: 1px black solid;
+}
+div#interface_principal table.global td.ce{
+    font-weight: bold;
+}
+div#interface_principal table.global td{
+    background-color: white;
+    text-align: left;
+    padding: 5px;
+}
+div#interface_principal table.global td.ce{
+    font-weight: bold;
+}
+div#interface_principal table.global td.cd{
+    text-align: center;
+}
+div#interface_principal table.global{
+    border-spacing: 0px;
+    width: 1100px;
+}

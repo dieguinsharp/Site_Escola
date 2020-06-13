@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web&display=swap);
+body {
+    background-color: #dddddd;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#interface_principal {
+    width: 1100px;
+    background-color: #dddddd;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+}
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #727272;
+    margin-top: 5px;
+}
+h2 {
+    font-size: 12pt;
+    padding: 0px;
+    margin-top: 0;
+}
+h3 {
+    font-size: 12pt;
+    font-family: 'Titillium Web', sans-serif;
+    color: #606060;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+h4 {
+    text-align: right;
+    font-size: 10pt;
+    margin-top: 0px;
+    color: #727272;
+}
+img#ico_eepafa {
+    width: 70px;
+    position: relative;
+    display: block;
+    top: -185px;
+    left: 92%;
+}
+nav#cabecalho_navegacao {
+    display: block;
+    position: relative;
+    top: -187px;
+    left: 30.5%;
+}
+nav#cabecalho_navegacao ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#cabecalho_navegacao li{
+    font-size: 13pt;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 8px;
+    margin: 1px;
+    transition: 1s;
+}
+nav#cabecalho_navegacao a {
+    text-decoration: none;
+    color: black;
+}
+nav#cabecalho_navegacao li:hover {
+    background-color: #606060;
+}
+nav#cabecalho_navegacao a:hover {
+    color: white;
+}
+img#img_cabecalho {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+header#cabecalho {
+    height: 300px;
+    border-bottom: 2px black solid;
+}
+section#secao_esquerda {
+    display: block;
+    float: left;
+    width: 600px;
+    border-right: 2px black solid;
+    padding-right: 15px;
+    background-color: #dddddd;
+    padding: 10px;
+}
+aside#lateral {
+    display: block;
+    width: 450px;
+    float: right;
+    background-color: #cecece;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+}
+img#img_projeto1, img#img_projeto2 {
+    width: 600px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+    margin-bottom: 5px;
+}
+img#img_projeto3 {
+    width: 450px;
+}
+aside#lateral hgroup#h2_lateral{
+    background: rgba(0,0,0, 0.2);
+    text-align: center;
+}
+hgroup#um_pouco_de_td h5 {
+    text-align: center;
+    border: 2px black solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    margin: 0px;
+    font-size: 20pt;
+    font-family: 'Titillium Web', sans-serif;
+}
+hgroup#um_pouco_de_td {
+    background-color: #dddddd;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+hgroup#ver_mais_projetos {
+    color:#606060;
+    text-align: center;
+    margin-top: 5px;
+}
+img.img_saude {
+    width: 600px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+}
+img.img_homenagem {
+    width: 450px;
+}
+footer#rodape {
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    display:block;
+    width: 1100px;
+    clear: both;
+    background-color: #727272;
+}
+footer#rodape ul {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer#rodape li {
+    display: inline-block;
+    padding: 3px;
+    margin-top: 0;
+    font-family: 'Titillium Web', sans-serif;
+    transition: 1s;
+}
+a:hover {
+    color: white;
+}
+h2.fundo_escuro {
+    background-color: #a5a5a5;
+}

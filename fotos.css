@@ -1,0 +1,303 @@
+@charset "UTF-8";
+body {
+    background-color: #dddddd;
+}
+div#interface_principal {
+    background-color: #dddddd;
+}
+ul#fotos_projeto1, ul#fotos_projeto2, ul#fotos_projeto3, ul#fotos_projeto4, ul#fotos_projeto5 {
+    margin: 0px;
+    width: 1100px;
+    overflow: hidden;
+    list-style: none;
+    padding-left: 80px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+ul#fotos_projeto1 li span, ul#fotos_projeto2 li span, ul#fotos_projeto3 li span, ul#fotos_projeto4 li span,ul#fotos_projeto5 li span{
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0, .3);
+    font-size: 10pt;
+    line-height: 370px;
+}
+ul#fotos_projeto1 li, ul#fotos_projeto2 li, ul#fotos_projeto3 li, ul#fotos_projeto4 li, ul#fotos_projeto5 li {
+    text-align: left;
+    float: left;
+    margin: 2px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,1);
+    transition: all 0.3s ease-in;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+ul#fotos_projeto1 li#ft1{
+    background-image: url("../Site EEPAFA/Site Escola/atuacao1.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft2 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao2.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft3 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao3.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft4 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao4.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft5 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao5.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft7 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao7.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft8 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao8.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft9 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao9.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li#ft10 {
+    background-image: url("../Site EEPAFA/Site Escola/atuacao10.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft1{
+    background-image: url("../Site EEPAFA/Site Escola/homenage1.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft2{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft3{
+    background-image: url("../Site EEPAFA/Site Escola/homenage3.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft4{
+    background-image: url("../Site EEPAFA/Site Escola/homenage4.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft5{
+    background-image: url("../Site EEPAFA/Site Escola/homenage5.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft6{
+    background-image: url("../Site EEPAFA/Site Escola/homenage6.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft7{
+    background-image: url("../Site EEPAFA/Site Escola/homenage7.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft8{
+    background-image: url("../Site EEPAFA/Site Escola/homenage8.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto2 li#ft9{
+    background-image: url("../Site EEPAFA/Site Escola/homenage9.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft1{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_1.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft2{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_2.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft3{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_3.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft4{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_4.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft5{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_5.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft6{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_6.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft7{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_7.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft8{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_8.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto3 li#ft9{
+    background-image: url("../Site EEPAFA/Site Escola/homenage2_9.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto4 li#ft1{
+    background-image: url("../Site EEPAFA/Site Escola/saude1.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto4 li#ft2{
+    background-image: url("../Site EEPAFA/Site Escola/saude2.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto4 li#ft3{
+    background-image: url("../Site EEPAFA/Site Escola/saude3.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto5 li#ft1{
+    background-image: url("../Site EEPAFA/Site Escola/bonito1.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto5 li#ft2{
+    background-image: url("../Site EEPAFA/Site Escola/bonito2.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto5 li#ft3{
+    background-image: url("../Site EEPAFA/Site Escola/bonito3.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto5 li#ft4{
+    background-image: url("../Site EEPAFA/Site Escola/bonito4.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto5 li#ft5{
+    background-image: url("../Site EEPAFA/Site Escola/bonito5.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto5 li#ft6{
+    background-image: url("../Site EEPAFA/Site Escola/bonito6.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 250px;
+    background-color: #ffffff;
+}
+ul#fotos_projeto1 li:hover, ul#fotos_projeto2 li:hover, ul#fotos_projeto3 li:hover, ul#fotos_projeto4 li:hover, ul#fotos_projeto5 li:hover {
+    transform: scale(1.5);
+}
+ul#fotos_projeto1 li:hover span, ul#fotos_projeto2 li:hover span, ul#fotos_projeto3 li:hover span, ul#fotos_projeto4 li:hover span, ul#fotos_projeto5 li:hover span{
+    opacity: 1;
+}
+ul#fotos_projeto1 li#ft1:hover, ul#fotos_projeto2 li#ft1:hover, ul#fotos_projeto3 li#ft1:hover, ul#fotos_projeto4 li#ft1:hover, ul#fotos_projeto5 li#ft1:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft2:hover, ul#fotos_projeto2 li#ft2:hover, ul#fotos_projeto3 li#ft2:hover, ul#fotos_projeto4 li#ft2:hover, ul#fotos_projeto5 li#ft2:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft3:hover, ul#fotos_projeto2 li#ft3:hover, ul#fotos_projeto3 li#ft3:hover, ul#fotos_projeto4 li#ft3:hover, ul#fotos_projeto5 li#ft3:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft4:hover, ul#fotos_projeto2 li#ft4:hover, ul#fotos_projeto3 li#ft4:hover, ul#fotos_projeto5 li#ft4:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft5:hover, ul#fotos_projeto2 li#ft5:hover, ul#fotos_projeto3 li#ft5:hover, ul#fotos_projeto5 li#ft5:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft6:hover, ul#fotos_projeto2 li#ft6:hover, ul#fotos_projeto3 li#ft6:hover,ul#fotos_projeto5 li#ft6:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft7:hover, ul#fotos_projeto2 li#ft7:hover, ul#fotos_projeto3 li#ft7:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft8:hover, ul#fotos_projeto2 li#ft8:hover, ul#fotos_projeto3 li#ft8:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft9:hover, ul#fotos_projeto2 li#ft9:hover, ul#fotos_projeto3 li#ft9:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft10:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+ul#fotos_projeto1 li#ft11:hover{
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
